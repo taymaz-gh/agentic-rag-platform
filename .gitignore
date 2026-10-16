@@ -1,0 +1,44 @@
+# Ignoring Python virtual environments
+.venv/
+venv/
+env/
+
+# Ignoring Python bytecode and cache files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Ignoring build and distribution artifacts
+build/
+dist/
+*.egg-info/
+
+# Ignoring local environment variables and credentials
+.env
+.env.*
+!.env.example
+
+# Ignoring editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Ignoring generated logs
+*.log
+logs/
+
+# Ignoring locally generated data and model artifacts
+data/raw/
+data/processed/
+models/
+artifacts/
+
+# Ignoring local notebooks' checkpoint files
+.ipynb_checkpoints/
+
+# Ignoring coverage reports
+.coverage
+htmlcov/
